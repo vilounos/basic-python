@@ -30,7 +30,7 @@ def main():
     parser.add_argument("--audio", required=True, help="Audio file")
     parser.add_argument("--background", required=True, help="Video file")
     parser.add_argument("--output", default="output.mp4", help="Output file")
-    parser.add_argument("--font", default="/mainfont.ttf", help="Font")
+    parser.add_argument("--font", default="mainfont.ttf", help="Font")
     parser.add_argument("--font_size", default=40, type=int, help="Font size")
     parser.add_argument("--opacity", default=0.3, type=float, help="Background opacity")
     parser.add_argument("--min_duration", default=0.8, type=float, 
